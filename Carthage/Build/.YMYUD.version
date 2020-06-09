@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.0.1",
+  "iOS" : [
+    {
+      "name" : "YMHUD",
+      "hash" : "405dae5dd8c15e6290980d1cdfb44aad64351c4cb663c18f707563bc969c34af",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

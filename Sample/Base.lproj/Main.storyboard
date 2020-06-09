@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z5N-YY-6kC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yww-Cn-VVe">
+            <objects>
+                <viewController id="Z5N-YY-6kC" customClass="ViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WxQ-vZ-LTy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KpU-lw-mi7">
+                                <rect key="frame" x="0.0" y="84" width="414" height="80.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YMHUD Sample" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27I-Fd-SWv">
+                                        <rect key="frame" x="127.5" y="0.0" width="159" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQ7-k7-GmV">
+                                        <rect key="frame" x="188" y="36.5" width="38" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="SxE-vM-lbE"/>
+                                        </constraints>
+                                        <state key="normal" title="Show"/>
+                                        <connections>
+                                            <action selector="didTapShowAction:" destination="Z5N-YY-6kC" eventType="touchUpInside" id="h6E-o2-Mgk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KpU-lw-mi7" firstAttribute="leading" secondItem="6F4-Gf-qRD" secondAttribute="leading" id="5Ae-dR-Ddc"/>
+                            <constraint firstItem="6F4-Gf-qRD" firstAttribute="trailing" secondItem="KpU-lw-mi7" secondAttribute="trailing" id="W2B-Nv-BRe"/>
+                            <constraint firstItem="KpU-lw-mi7" firstAttribute="top" secondItem="6F4-Gf-qRD" secondAttribute="top" constant="40" id="jr5-8o-oxD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6F4-Gf-qRD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xb4-JS-6WJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+</document>
